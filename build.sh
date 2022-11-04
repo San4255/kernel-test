@@ -13,7 +13,7 @@ if [ -r AnyKernel3 ]; then
 
 else
   echo AnyKernel3 not found, Cloning it now
-  git clone https://github.com/redcliff-op/AnyKernel3.git
+  git clone https://github.com/San4255/AnyKernel3.git
 
 fi
 
@@ -22,7 +22,7 @@ if [ -r clang ]; then
   cd clang
   git config pull.rebase false
   cd ..
-  
+
 
 else
   echo clang not found!, git cloning it now....
